@@ -9,6 +9,8 @@ import { WeatherData } from '../../interfaces/weatherDate';
 import WeatherDisplay from '../Weather/Weather';
 import { renderToString } from 'react-dom/server';
 import { updateMapWithPolygon } from '../../utils/utils';
+import 'mapbox-gl/dist/mapbox-gl.css';
+
 
 // Set Mapbox access token
 mapboxgl.accessToken = 'pk.eyJ1IjoiYmFyYWNvaGVuIiwiYSI6ImNscXoyZDQyejAwcjUyaW52cmNsOTg0ZWQifQ.Rp6ELhCxR2pF0K_pVGWNRA';

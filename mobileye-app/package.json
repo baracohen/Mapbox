@@ -60,5 +60,6 @@
     "testMatch": [
       "<rootDir>/src/tests/**/*.tsx"
     ]
-  }
+  },
+  "homepage": "https://baracohen.github.io/Mapbox/"
 }
